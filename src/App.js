@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Add from './Add';
+import Add from './components/Add';
 import './App.css';
-import MovieList from './MoviesList';
-import Search from './Search';
+import MovieList from './components/MoviesList';
+import Search from './components/Search';
 function App() {
   const [movies, setMovies] = useState([
     {

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import MovieCard from './MovieCard';
 // the movie list (for showing all the movies)
 
-function MoviesList({movies}) {
+function MoviesList({movies,handleDelete}) {
   // const [movies, setMovies] = useState([]);
 
   // const handleDelete = (name) => {
@@ -18,7 +18,7 @@ function MoviesList({movies}) {
     <div className="MovieList">
       {
         movies.map((movie) => (
-          <MovieCard key={movie.name} movie={movie} />
+          <MovieCard handleDelete={handleDelete} key={movie.name} movie={movie} />
         ))
       }
     </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Del from './Del';
+import Del from "./Del"
 import Stars from './Stars';
 //the cards that contain every movie dtails
 function MovieCard({ movie, handleDelete }) {
@@ -10,7 +10,7 @@ function MovieCard({ movie, handleDelete }) {
 
   return (
     <div className="MovieCard">
-      {/* <Del handleDelete={handleDeleteClick} /> */}
+      <Del del={handleDeleteClick} />
       <Stars rating={movie.rating} />
       <img src={movie.poster} alt={movie.name} />
       <div className="MovieInfo">

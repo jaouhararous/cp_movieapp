@@ -1,9 +1,9 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 //delete button 
-const Del = ({ handleDelete }) => {
+const Del = ({ del }) => {
   return (
-    <Button variant="danger" onClick={handleDelete}>
+    <Button variant="danger" onClick={del}>
       X
     </Button>
   );
