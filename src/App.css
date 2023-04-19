@@ -1,0 +1,106 @@
+
+* {
+  font-family: 'Bebas Neue', cursive;
+}
+.bar {
+  background-color:#E50914 ;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 0 10px #000;
+
+}
+.searchinput {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+.maintitle{
+  display: flex;
+  padding: 10px;
+  text-shadow:white;
+  box-shadow: #fff;
+}
+.MovieList{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  color: rgb(295, 255, 255);
+
+}
+
+.MovieCard {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; */
+  padding: 20px;
+  margin: 20px;
+  background-color: #222;
+  color: #fff;
+  box-shadow: 0 0 10px #000;
+  flex-wrap: wrap;
+  max-width: 33%;
+  
+}
+
+.MovieCard img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px #000;
+}
+
+.MovieInfo {
+  text-align: center;
+  margin: 10px;
+}
+
+.MovieInfo h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.MovieInfo p {
+  margin-bottom: 5px;
+}
+.mbody{
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  /* align-items: center; */
+  padding: 20px;
+  margin: 20px;
+  background-color: #E50914;
+  color: #fff;
+  box-shadow: 0 0 10px #000;
+  flex-wrap: wrap;
+  border-radius: 25px;
+
+}
+.modal{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+  background-color: #222;
+  color: #fff;
+  box-shadow: 0 0 10px #000;
+  flex-wrap: wrap;
+  max-width: 25%;
+  
+}
+.input{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
