@@ -1,6 +1,7 @@
 import React from 'react';
 import Del from "./Del"
 import Stars from './Stars';
+import { Link } from 'react-router-dom';
 //the cards that contain every movie dtails
 function MovieCard({ movie, handleDelete }) {
   console.log(movie)
@@ -19,6 +20,7 @@ function MovieCard({ movie, handleDelete }) {
         <p>{movie.genre}</p>
         <p>{movie.year}</p>
         {/* <p>{movie.rating}</p> */}
+        <Link to={`/${movie.name}`}  >trailer</Link>
       </div>
     </div>
   );

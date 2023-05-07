@@ -37,7 +37,7 @@ const Add = ({ addMovie }) => {
 
   return (
     <div className='mbody'>
-      <Button variant="primary" onClick={handleShow}>Add Movie</Button>
+      <Button className='addbtn'  variant="primary" onClick={handleShow}>Add Movie</Button>
 
       <Modal show={showModal} onHide={handleClose} className="modal">
         <Modal.Header closeButton>

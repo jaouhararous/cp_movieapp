@@ -20,6 +20,7 @@ function MoviesList({movies,handleDelete}) {
         movies.map((movie) => (
           <MovieCard handleDelete={handleDelete} key={movie.name} movie={movie} />
         ))
+        
       }
     </div>
   );
